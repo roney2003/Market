@@ -1,0 +1,7 @@
+[
+    { "id": 1, "name": "Smartphone", "price": 19999, "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=150&h=150&fit=crop" },
+    { "id": 2, "name": "Laptop", "price": 49999, "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a0a6?w=150&h=150&fit=crop" },
+    { "id": 3, "name": "Headphones", "price": 2999, "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=150&h=150&fit=crop" },
+    { "id": 4, "name": "Smartwatch", "price": 9999, "image": "https://images.unsplash.com/photo-1523275339254-cc177659af28?w=150&h=150&fit=crop" },
+    { "id": 5, "name": "Camera", "price": 34999, "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc49?w=150&h=150&fit=crop" }
+  ]

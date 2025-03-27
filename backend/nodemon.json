@@ -1,0 +1,13 @@
+{
+    "restartable": "rs",
+    "ignore": [".git", "node_modules/**/node_modules"],
+    "verbose": true,
+    "execMap": {
+      "js": "node"
+    },
+    "events": {
+      "crash": "echo 'App crashed! Killing all node processes...' && taskkill /IM node.exe /F"
+    },
+    "watch": ["*.js"],
+    "ext": "js json"
+  }
