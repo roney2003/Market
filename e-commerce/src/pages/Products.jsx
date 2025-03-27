@@ -9,8 +9,7 @@ const Products = ({ addToCart }) => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        console.log("API URL:", import.meta.env.VITE_API_URL); // Debugging
-        const response = await fetch(`${import.meta.env.VITE_API_URL}/api/products`);
+        const response = await fetch(`/api/products`);
         const data = await response.json();
         setProducts(data);
         setLoading(false);

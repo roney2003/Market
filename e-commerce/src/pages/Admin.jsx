@@ -8,8 +8,7 @@ const Admin = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        console.log("API URL:", import.meta.env.VITE_API_URL); // Debugging
-        const response = await fetch(`${import.meta.env.VITE_API_URL}/api/users`, {
+        const response = await fetch(`/api/users`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

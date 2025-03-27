@@ -16,8 +16,7 @@ const Login = ({ onLogin }) => {
     }
 
     try {
-      console.log("API URL:", import.meta.env.VITE_API_URL); // Debugging
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/login`, {
+      const response = await fetch(`/api/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
